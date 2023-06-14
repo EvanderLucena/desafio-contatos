@@ -1,6 +1,6 @@
 ﻿Desafio Evander
 
-Este é o projeto Desafio Evander, um aplicativo desenvolvido para [descrição do projeto].
+Este é o projeto Desafio Evander, um aplicativo desenvolvido para cadastros de contatos.
 
 Pré-requisitos
 
@@ -10,7 +10,7 @@ JDK 1.8 ou superior
 
 Maven 3.6.3 ou superior
 
-Banco de dados MySQL
+Banco de dados H2 Database
 
 IDE de sua preferência (recomendado: IntelliJ IDEA)
 
@@ -18,7 +18,7 @@ Instalação
 
 Clone este repositório em sua máquina local:
 
-git clone https://github.com/seu-usuario/desafio-evander.git
+git clone https://github.com/EvanderLucena/desafio-contatos
 
 Importe o projeto em sua IDE.
 
@@ -60,14 +60,10 @@ Envie as alterações para o repositório remoto: git push origin minha-branch.
 
 Crie um pull request para a branch principal.
 
-Licença
-
-Este projeto está licenciado sob a licença [Nome da Licença]. Consulte o arquivo LICENSE para obter mais informações.
-
 Contato
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-Email: seu-email@example.com
+Email: evander.willian@gmail.com
 
-GitHub: seu-usuario
+GitHub: EvanderLucena
