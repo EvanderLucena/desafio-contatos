@@ -1,4 +1,4 @@
-package com.evander.desafio.controller;
+package com.evander.desafio.Resource;
 
 import com.evander.desafio.model.Address;
 import com.evander.desafio.model.Contact;
@@ -20,7 +20,7 @@ import java.util.Optional;
 @Api(value = "Contacts")
 @Validated
 @RequestMapping("/contacts")
-public class ContactController {
+public class ContactResource {
 
     @Autowired
     private ContactRepository contactRepository;
