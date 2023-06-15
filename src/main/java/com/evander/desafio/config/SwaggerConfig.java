@@ -20,7 +20,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.evander.desafio.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.evander.desafio"))
                 .paths(PathSelectors.any())
                 .build()
                 .apiInfo(apiInfo());

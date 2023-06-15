@@ -1,4 +1,4 @@
-package com.evander.desafio.Resource;
+package com.evander.desafio.resource;
 
 import com.evander.desafio.model.Address;
 import com.evander.desafio.model.Contact;
