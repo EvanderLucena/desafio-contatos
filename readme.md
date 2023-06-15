@@ -1,66 +1,92 @@
-﻿Desafio Evander
+﻿# Desafio Evander
 
 Este é o projeto Desafio Evander, um aplicativo desenvolvido para cadastros de contatos.
 
-Pré-requisitos
+## Pré-requisitos
 
 Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 
-JDK 1.8 ou superior
+- JDK 1.8 ou superior
+- Maven 3.6.3 ou superior
+- Banco de dados H2 Database
+- IDE de sua preferência (recomendado: IntelliJ IDEA)
 
-Maven 3.6.3 ou superior
+## Instalação
 
-Banco de dados H2 Database
+1. Clone este repositório em sua máquina local:
 
-IDE de sua preferência (recomendado: IntelliJ IDEA)
+    git clone https://github.com/EvanderLucena/desafio-contatos
+2. Importe o projeto em sua IDE.
 
-Instalação
+3. Configure as informações do banco de dados no arquivo `application.properties`.
 
-Clone este repositório em sua máquina local:
+4. Execute a classe `DesafioEvanderApplication.java` para iniciar o aplicativo.
 
-git clone https://github.com/EvanderLucena/desafio-contatos
-
-Importe o projeto em sua IDE.
-
-Configure as informações do banco de dados no arquivo application.properties.
-
-Execute a classe DesafioEvanderApplication.java para iniciar o aplicativo.
-
-Endpoints da API
-
-A API oferece os seguintes endpoints:
-
-/api/produtos: retorna a lista de produtos disponíveis.
-
-/api/produtos/{id}: retorna os detalhes de um produto específico com base no ID.
-
-Documentação da API
+## Documentação da API
 
 A documentação da API é fornecida usando o Swagger. Para acessar a documentação, siga estas etapas:
 
-Inicie o aplicativo.
+1. Inicie o aplicativo.
 
-Abra o navegador e acesse o seguinte URL:
+2. Abra o navegador e acesse o seguinte URL:
+ http://localhost:8080/swagger-ui.html
 
-http://localhost:8080/swagger-ui.html
+3. A documentação da API será exibida, mostrando todos os endpoints disponíveis e suas descrições.
+## Endpoints
 
-A documentação da API será exibida, mostrando todos os endpoints disponíveis e suas descrições.
+### Listar todos os contatos
 
-Contribuição
+Endpoint: `GET /contacts`
+
+Retorna uma lista de todos os contatos cadastrados.
+
+### Obter um contato específico
+
+Endpoint: `GET /contacts/{id}`
+
+Parâmetros:
+- `{id}`: O ID do contato a ser obtido.
+
+### Criar um novo contato
+
+Endpoint: `POST /contacts`
+
+Cria um novo contato com base nos dados fornecidos no corpo da solicitação.
+
+### Atualizar um contato existente
+
+Endpoint: `PUT /contacts/{id}`
+
+Parâmetros:
+- `{id}`: O ID do contato a ser atualizado.
+
+Atualiza um contato existente com base nos dados fornecidos no corpo da solicitação.
+
+### Excluir um contato
+
+Endpoint: `DELETE /contacts/{id}`
+
+Parâmetros:
+- `{id}`: O ID do contato a ser excluído.
+
+Exclui um contato existente com base no ID fornecido.
+
+
+## Contribuição
 
 Se você deseja contribuir para este projeto, siga as etapas abaixo:
 
-Faça um fork deste repositório.
+1. Faça um fork deste repositório.
 
-Crie uma nova branch: git checkout -b minha-branch.
+2. Crie uma nova branch: `git checkout -b minha-branch`.
 
-Faça as alterações necessárias e commit: git commit -m "Minha contribuição".
+3. Faça as alterações necessárias e commit: `git commit -m "Minha contribuição"`.
 
-Envie as alterações para o repositório remoto: git push origin minha-branch.
+4. Envie as alterações para o repositório remoto: `git push origin minha-branch`.
 
-Crie um pull request para a branch principal.
+5. Crie um pull request para a branch principal.
 
-Contato
+## Contato
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
